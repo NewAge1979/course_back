@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: backend
+  datasource:
+    generate-unique-name: false
+  jpa:
+    properties:
+      hibernate:
+        globally_quoted_identifiers: true
